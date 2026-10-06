@@ -2,7 +2,7 @@
 Ceritanya ada dua jenis akun: admin yang bisa liat dan ngatur semua data, sama user biasa yang cuma bisa pegang tabungannya sendiri. Fitur utamanya ya standar CRUD: tambah, liat, ubah, hapus, plus ada fitur nabung/setor duit yang bakal ngitung otomatis progressnya dalam persen.<br>
 File utamanya MINPRO_DDP2.py, jalan di terminal, dan butuh dua library luar, prettytable buat nampilin tabel rapi, sama pwinput buat nyembunyiin ketikan password jadi bintang-bintang.<br>
 ini adalah flowchartnya:<br>
-<img width="643" height="1010" alt="Flowchart MINPRO DDP2" src="https://github.com/user-attachments/assets/987f439c-2261-4c4a-b323-9a64ce84da0d" /><br>
+<img width="1211" height="1242" alt="Flowchart_MINPRO_DDP2" src="https://github.com/user-attachments/assets/fc6d3f4f-9ab9-432d-b91b-4bec80723e99" /><br>
 Intinya program ini muter-muter di satu loop gede (while True paling bawah) yang nampilin menu awal terus-terusan. Begitu login berhasil, dia masuk ke loop lain lagi (menu admin atau menu user tergantung role), dan loop itu juga baru kebuka kalau user pilih logout. Jadi programnya nggak pernah "selesai" sampai user beneran milih opsi Keluar di menu paling awal.<br>
 Penjelasan code:<br>
 <img width="716" height="294" alt="image" src="https://github.com/user-attachments/assets/6dde1050-c928-44c0-ae41-4d383c2cf644" /><br>
